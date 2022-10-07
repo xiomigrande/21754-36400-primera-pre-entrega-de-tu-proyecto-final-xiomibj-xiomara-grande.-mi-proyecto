@@ -1,0 +1,104 @@
+.fondo-header{
+    background-color: #5a3e20;
+}
+
+#logo-home {
+    padding-top: 10px ;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    margin-right: 50px;
+    width: 150px;
+    
+
+}
+
+
+#buscador-home {
+
+    border-color: rgb(36, 35, 34);
+    border-radius: 90px;
+    outline-color: darkslategrey;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+#titulo-home {
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    color: dimgray;
+  
+  
+   font-size: 80px;
+
+    
+}
+#registrarse-home {
+   
+    margin-left: 300px;
+    padding-left: 150px;
+    padding-right: 0px;
+    padding-top: 100px;
+    font-size: 30px;
+    color: dimgray;
+}
+#carrito-home {
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: dimgray;
+}
+ #parrafo-home {
+    display: flex;
+    justify-content: center;
+    font-size:  40px;
+    color: dimgray;
+ }
+ #parrafo2-home {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: dimgray;
+ }
+ #h2-home{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: dimgray;
+    
+ }
+#logos-home{
+    margin-top: 50px;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 500px;
+   
+}
+#consultanos {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+
+.listado-home{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+.listado-home a {
+    text-decoration: none;
+    margin:12px;
+    color: darkslategray;
+}
