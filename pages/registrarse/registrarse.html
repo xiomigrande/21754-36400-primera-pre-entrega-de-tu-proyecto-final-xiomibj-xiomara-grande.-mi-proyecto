@@ -1,92 +1,178 @@
-º<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="../../css/main.css">
+
     <title>registrarse-pistachio frutos secos</title>
+    <style>
+      body{
+        background: #adb5bd;
+        background: linear-gradient(to right, #ac662d,#adb5bd );
+      }
+     
+    </style>
 
 </head>
 <body>
-    <header>
-        <div>
-            <img src="../../imagenes/WhatsApp Image 2022-09-08 at 22.38.58.jpeg" alt="logo-pistachio">
-            
-            
-                <input type="search" placeholder="¿que estas buscando?">
-            
-            
-                <a href="registrarse.html">registrarse</a> 
-            
-            
-                <a href="../carrito/carrito.html">carrito</a>
-        </div>
-        <div>
-            <a href="../../index.html">inicio</a>
-            
-             <a href="../productos/productos.html">productos</a>
-        
-             <a href= "../sucursales/sucursales.html">sucursales</a>
+    <header class="fondo-header">
 
-             <a href="#contacto-home">contacto</a>
-        </div>
+        <nav class="navbar navbar-expand-lg">
+
+            <div class="container-fluid">
+    
+        
+              <a class="navbar-brand"   href="../../index.html"><img  id="logo-home" src="../../imagenes/WhatsApp Image 2022-09-08 at 22.38.58.jpeg" alt="logo-pistachio">
+              </a> 
+
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+             
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../../index.html">inicio</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="../productos/productos.html">productos</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="../sucursales/sucursales.html">sucursales</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registrarse.html">registrate</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="../carrito/carrito.html">carrito</a>
+                  </li>
+    
+    
+                </ul>
+                <form class="d-flex" role="search">
+    
+                  <input class="form-control me-2" id="buscador-home" type="search" placeholder="¿que estas buscando?" aria-label="Search">
+    
+                  <button class="btn btn-secondary"  type="submit">buscar</button>
+                
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
 
+    <div class="container w75 bg mt-5 rounded shadow">
+      <div class="row aling-items-stretch">
+        <div class="col bg d-none">
+        </div>
+
+        
+      
+        
+          <form action="#" class="formulario-registrate">
+            <h2>acceder</h2>
+      
+            <div class="mb-4">
+              <label for="email" class="form-label">nombre de usuario o email</label>
+              <input type="email" class="form-control" name="email">
+            </div>
+            <div class="mb-4">
+              <label for="password" class="form-label">contraseña</label>
+              <input type="password" class="form-control" name="password">
+            </div>
+            <div class="mb-4">
+              <label for="recuerdame" class="form-check-label">recuerdame</label>
+              <input type="checkbox" class="form-check-label">
+      
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary">acceder</button>
+            </div>
+            <div class="my-3">
+               <span>olvidaste tu contraseña?</span>
+            <span> <a href="#">recuperar contraseña</a></span>      
+          </div>
+          <div class="mb-4">
+            <h2>registrate</h2>
+            <label for="email" class="form-label">nombre de usuario o email</label>
+            <input type="email" class="form-control" name="email">
+          </div>
+
+          <div class="my-3">
+            <span>se enviara una contraseña a tu correo electronico</span>
+          </div>
+
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary">registrarse</button>
+          </div>
+
+        </form>
+
+        
+          
+        </form>
+        </div>
+        
+        
+
+      
+        
+
+      </div>
+      
+
+    </div>
+   
+
+ 
     
 
-    <form action=""></form>
-    <h2>acceder</h2>
-    <div>
-      <label for="">nombre de usuario o email</label>
-      <input type="email">
-    </div>
+
     
-    <div>
-        <label for="">contraseña</label>
-        <input type="password">
-    </div>
-
-    <div>
-         <label for="">recuerdame</label>
-         <input type="checkbox" name="" id="">
-    </div>
-
-         <input type="submit" value="acceder">
-
-
-     <form action="">registrarse</form>
-     <h2>registrarse</h2>
-     <div>
-        <label for="">direccion de correo electronico</label>
-        <input type="email">
-     </div>
-
-     <div>
-        <span>se enviara a tu correo electronico una contraseña</span>
-     </div>
-
-     <input type="submit" value="registrarse">
+   
 
      <footer>
-        <div>
-            <img id="contacto-home"  src="../../imagenes/wp.png" alt="WhatsApp">
-            <a href="">¡consultanos!</a>
-        </div>
+
+      <div id="logos-home">
+        <img id="contacto-home"  src="../../imagenes/wp.png" alt="WhatsApp">
+        <h3 id="consultanos">¡consultanos!</h3>
+    </div>
+    <div class="listado-home">
+      <a href="index.html" id="incio-home2">inicio</a>
+
+
+      <a href="../productos/productos.html">productos</a>
+
+
+      <a href="../sucursales/sucursales.html">sucursales</a>
+
+
+      <a href="#contacto-home">contacto</a>
+  </div>
+        
     
-        <div>
-             <a href="../../index.html">inicio</a>
-                    
-                    
-             <a href="../productos/productos.html">productos</a>
-                    
-                    
-             <a href="../sucursales/sucursales.html">sucursales</a>
-                    
-             <a href="#contacto-home">contacto</a>
-    
-        </div>
+        
 
     </footer>
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

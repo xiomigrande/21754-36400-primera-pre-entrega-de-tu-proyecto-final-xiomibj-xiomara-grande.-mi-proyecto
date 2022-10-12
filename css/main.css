@@ -1,5 +1,5 @@
 .fondo-header{
-    background-color: #5a3e20;
+    background-color: #7c542a;
 }
 
 #logo-home {
@@ -17,9 +17,9 @@
 
 #buscador-home {
 
-    border-color: rgb(36, 35, 34);
+    border-color: #242322;
     border-radius: 90px;
-    outline-color: darkslategrey;
+    outline-color: #2f4f4f;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -36,7 +36,8 @@
     display: flex;
     justify-content: center;
     font-size: 100%;
-    color: dimgray;
+    color: #0f0e0e;
+    transition: all 3s;
   
   
    font-size: 80px;
@@ -56,42 +57,70 @@
     margin-left: 20px;
     padding-left: 10px;
     font-size: 30px;
-    color: dimgray;
+    color: #0f0e0e;
 }
- #parrafo-home {
+ #subtitulo-home {
     display: flex;
     justify-content: center;
+    
+    
     font-size:  40px;
-    color: dimgray;
+    color: #0f0e0e;
  }
- #parrafo2-home {
+ #subtitulo2-home {
     display: flex;
     justify-content: center;
     font-size: 30px;
-    color: dimgray;
+    color: #0f0e0e;
  }
+.contenedor-flexible {
+    background-color: #787675;
+    display: flex;
+  
+    
+    border: 10px solid grey;
+    
+}
+.contenedor-footer {
+    background-color: #787675;
+    
+    border: 0px solid grey;
+}
  #h2-home{
     display: flex;
     justify-content: center;
     font-size: 30px;
-    color: dimgray;
+    color: #0f0e0e;
     
  }
 #logos-home{
-    margin-top: 50px;
-    padding: 20px;
+    background-color: #a46545;
+    border: 5px solid #e3d4d4;
+    margin-top: 0px;
     padding-right: 50px;
+    padding: 30px;
     padding-left: 500px;
    
 }
+#contacto-home {
+    width: auto;
+    padding: 1px 2px;
+    padding-left: 5px;
+   
+    
+    
+}
 #consultanos {
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
+   display: inline ;
+  
+   
+    font-size: 40px;
+    
 }
 
 
 .listado-home{
+    background-color: #7c542a;
     display: flex;
     justify-content: center;
     font-size: 25px;
@@ -100,5 +129,68 @@
 .listado-home a {
     text-decoration: none;
     margin:12px;
-    color: darkslategray;
+    color: #2f4f4f;
+}
+
+.tabla-productos {
+
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
+}
+@media screen and (max-width: 520px)  { .tabla-productos {
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+
+ .tabla-productos p {
+    color: #787675;
+    
+    margin: 10px;
+    
+    font-size: medium;
+    letter-spacing: 1px;
+
+
+ } 
+ 
+         
+   
+
+
+.tabla-productos img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.cajita-producto {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid grey;
+    
+}
+
+.foto-construccion {
+    width: 100%;
+}
+
+.formulario-registrate{
+    width: 100%;
+    height: auto;
+    border: #7c542a ;
+}
+.cajita-registrate {
+    display: grid;
+    grid-column: 1fr 1fr;
+
+    justify-content: center;
+    padding: 60px;
+    margin: 20px;
+    border: #7c542a solid 2px;
+}
+
+.fondo-sucursales{
+    background: #adb5bd;
+    background: linear-gradient(to right, #ac662d,#adb5bd );
 }
